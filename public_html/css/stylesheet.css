@@ -1,13 +1,15 @@
 body {
-	background-color: white;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(#B3F6FF, #007E8F);
 	margin: 0px;
 }
 
 footer {
-	background-color: #d0d0d0;
+	background-color: #333;
 	margin: 0px;
 	border: solid;
 	border-width: 1px;
+	font-color: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -55,7 +57,6 @@ ul {
 
 li {
   float: left;
-  transition: all 0.3s ease;
 }
 
 li a {
@@ -64,6 +65,8 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease
 }
 
 li:last-child {
@@ -73,5 +76,5 @@ li:last-child {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-  transition: all 0.3s ease;
+
 }
