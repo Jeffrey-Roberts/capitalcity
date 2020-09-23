@@ -1,7 +1,8 @@
 body {
 	background-color: #FFFFFF;
-	background-image: linear-gradient(#B3F6FF, #007E8F);
+	background-color: #B3F6FF;
 	margin: 0px;
+	transition: all 0.3s ease;
 }
 
 footer {
@@ -10,6 +11,25 @@ footer {
 	border: solid;
 	border-width: 1px;
 	font-color: #FFFFFF;
+}
+
+article {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 1px;
+	border: solid;
+	border-radius: 10px;
+	background-color: #7bd7e3;
+}
+
+footer p {
+	color: white;
+}
+
+h1 {
+	text-align: center;
 }
 
 h1, h2, h3 {
@@ -35,6 +55,12 @@ ul {
 	border-radius: 15px;
 }
 
+.front_picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .footer_picture {
 	display: block;
 	float: right;
@@ -45,7 +71,7 @@ ul {
 
 }
 
-#front_picture {
+#main_picture {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -66,14 +92,14 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
-  transition: all 0.3s ease
+  transition: all 0.3s ease;
 }
 
 li:last-child {
   border-right: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #111;
 
