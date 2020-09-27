@@ -10,7 +10,9 @@ footer {
 	margin: 0px;
 	border: solid;
 	border-width: 1px;
-	font-color: #FFFFFF;
+	color: black;
+	position: relative;
+	bottom: 0;
 }
 
 article {
@@ -83,9 +85,10 @@ ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-height: 650;
-	max-width: 1920;
-	float: center;
+	max-height: 650px;
+	width: 1920px;
+	overflow: hidden;
+	margin: 0px
 }
 
 #southpier {
