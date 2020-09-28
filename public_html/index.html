@@ -5,37 +5,73 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Welcome To Capital City</title>
-		 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+
+
 	</head>
 	<body>
 		<header>
-			<ul>
-				<li><a href="index.html">Home</a></li>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      			<a class="navbar-brand" href="index.html">Capital City</a>
+      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        			<span class="navbar-toggler-icon"></span>
+      			</button>
 
-				<li><a href="about.html">History and Information</a></li>
+      			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-				<li><a href="tourist.html">Camping, Hiking, and Fishing</a></li>
+		        	<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
 
-				<li><a href="food.html">Food</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">History</a>
+						</li>
 
-				<li><a href="southpier.html">The Southpier</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="tourist.html">Outdoor Fun</a>
+						</li>
 
-				<li><a href="sports.html"> The Stingrays</a></li>
-			</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="food.html">Food</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="southpier.html">The Southpier</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="sports.html"> The Stingrays</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 
-		<h1 style="font-size: 50px; margin: 50px;">Welcome To Capital City</h1>
-		<img id="main_picture" src="img/capitalcity2.png" alt="home picture"/>
-		<p style="margin: 10px; font-size: 25px;"><b>Welcome to Capital City, located on the beautiful coast of South Carolina! 
-			This beautiful populace city is home to roughly three million residences.
-			Here in Capital City there are many activies all around to keep your active in your daily life. Wish your boring life behind when you come to Capital City.
-			Capital City has many activies to offer from camp grounds, amazing food, baseball games, and don't forget our beautiful Southpier!</b></p>
+		<div class="container">
+			<h1 style="font-size: 50px; margin: 50px;">Welcome To Capital City</h1>
+			<img id="main_picture" src="img/capitalcity2.png" alt="home picture"/>
+			<p style="margin: 10px; font-size: 25px;"><b>Welcome to Capital City, located on the beautiful coast of South Carolina! 
+				This beautiful populace city is home to roughly three million residences.
+				Here in Capital City there are many activies all around to keep your active in your daily life. Wish your boring life behind when you come to Capital City.
+				Capital City has many activies to offer from camp grounds, amazing food, baseball games, and don't forget our beautiful Southpier!</b></p>
+			
+			<footer>
+				<img src="img/indexfooter.png" class="footer_picture" alt="footer picture"/>
+				<p>Copyright 2020 by Capital City &copy;</p>
+				<p>City Hall Number: 432-786-9023</p>
+				<p>City Hall Address: 123 Main Street, Capital City, SC 529041</p>
+			</footer>
+		</div>
 		
-		<footer>
-			<img src="img/indexfooter.png" class="footer_picture" alt="footer picture"/>
-			<p>Copyright 2020 by Capital City &copy;</p>
-			<p>City Hall Number: 432-786-9023</p>
-			<p>City Hall Address: 123 Main Street, Capital City, SC 529041</p>
-		</footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	</body>
 </html>
